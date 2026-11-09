@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Rayaan Sheikh, Member of Technical Staff at Doris Labs in London. AI agents, LLM systems and AI infrastructure.">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Rayaan Sheikh</title>
+<script>
+	function unhide(divID) {
+		var item = document.getElementById(divID);
+		if (item) {
+			item.className = (item.className == 'hidden') ? 'unhidden' : 'hidden';
+		}
+	}
+</script>
+</head>
+
+<body>
+<img src="profilepic.jpg" class="profilepic" alt="Rayaan Sheikh">
+
+<h3>RAYAAN SHEIKH</h3>
+Member of Technical Staff <br/>
+<a target="_blank" href="https://meetdoris.com">Doris Labs</a><br/>
+London, UK<br/><br/>
+<a target="_blank" href="mailto:rayaansheikh442@gmail.com">Email</a> /
+<a target="_blank" href="https://www.linkedin.com/in/rayaan-sheikh-2329ab214">LinkedIn</a> /
+<a target="_blank" href="https://x.com/rayaan_771">X</a> /
+<a target="_blank" href="https://github.com/rayaan2003">GitHub</a>
+
+<br/><br/>
+I am a member of technical staff at <a href="https://meetdoris.com" target="_blank">Doris Labs</a> in London, where I build AI agents that turn conversations and deal history into intelligence sales teams can actually use.
+I work on multi-agent LLM systems, inference optimisation and AI infrastructure, and I care about the gap between what AI can do in research and what it takes to make it reliable in production.
+Outside of work, I build and ship my own products around agent security and LLM observability.
+Feel free to drop me a line if you want to chat about AI, engineering, finance or startups.
+<br/><br/>
+
+I completed my MSc in Artificial Intelligence in 2026 at <a href="https://www.qmul.ac.uk/" target="_blank">Queen Mary University of London</a>, where I wrote my dissertation on hybrid Transformer-Mamba architectures, supervised by Fredrik Dahlqvist.
+I studied how the two should actually be combined into a hybrid, and when each one is faster in practice.
+Before that, I studied Electronic Systems Engineering at NIELIT, and Data Science and Applications at <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a>.
+
+<br/><br/>
+<h3>EXPERIENCE</h3>
+<ul>
+	<li>
+	<span class="title">Doris Labs</span>: Member of Technical Staff<br/>
+	London, 2026 to present<br/>
+	Building the layer where a company keeps what it really knows about its deals: buyer worries, rep promises and who decides, built from calls, emails, docs and the CRM.
+
+	<li>
+	<span class="title">Vibedex AI</span>: Founding AI and GTM Engineer<br/>
+	London, 2026<br/>
+	Vibedex is a Skyscanner for AI: a platform to discover, compare and choose AI models by quality, cost and use-case fit. I worked on image and video model benchmarking, recommendation systems built on AI-driven reviews, and go-to-market.
+
+	<li>
+	<span class="title">HeyElsa AI</span>: Software Engineer<br/>
+	San Francisco, 2025<br/>
+	Worked on RAG and infrastructure integrations with crypto data and decentralised exchanges.
+
+	<li>
+	<span class="title">Peri Labs</span>: Founding AI Engineer<br/>
+	London, 2024 to 2025<br/>
+	Built AI infrastructure for production edge AI. Researched quantisation, sharding and compression for models like LLaMA 3, reaching up to 5&times; efficiency gains with minimal performance loss, and built tooling for model observability and deployment reliability.
+
+	<li>
+	<span class="title">SuperSight</span>: AI Research Engineer<br/>
+	London, 2023 to 2024<br/>
+	Early team member building autonomous AI agents and LLM-powered systems. Built multi-agent orchestration with routing, contextual memory and decision scoring, cut agent inference latency by 30%+, and built validation and safety pipelines to reduce hallucinations.
+</ul>
+
+<h3>PROJECTS</h3>
+<ul>
+	<li>
+	<span class="title">Bastion: Policy Enforcement for AI Agent Tool Calls</span><br/>
+	Open source, Python (2026)<br/>
+	<a href="https://github.com/rayaan2003/bastion" target="_blank">code</a> /
+	<a href="https://pypi.org/project/bastionguard/" target="_blank">pypi</a> /
+	<a href="javascript:unhide('bastiontldr');">tl;dr</a>
+	<div id="bastiontldr" class="hidden">
+Bastion sits between an AI agent and its tools. Every tool call is checked against a YAML policy before it runs: allowed, blocked, or held until a human approves it in Slack or on a dashboard. Every decision lands in an audit log with PII and secrets masked. Works as a Python SDK wrapper or as a no-code MCP proxy, and supports a shadow mode for testing new policies on real traffic.
+	</div>
+
+	<li>
+	<span class="title">Nexus: AI API Observability and Optimisation</span><br/>
+	Public beta (2026)<br/>
+	<a href="https://nexus-production-7c03.up.railway.app/" target="_blank">live product</a> /
+	<a href="javascript:unhide('nexustldr');">tl;dr</a>
+	<div id="nexustldr" class="hidden">
+A drop-in proxy for OpenAI, Anthropic and Gemini: swap one base URL and get real-time cost, latency and error visibility on every request. Includes semantic caching (31%+ cache hit rates), per-org AES-256-GCM key encryption, zero payload retention, a model recommendation engine, spend alerts and budget hard caps. Shipped end-to-end as a SaaS, from proxy infrastructure to dashboard, pricing tiers and auth.
+	</div>
+</ul>
+
+<h3>PAPERS AND REPORTS</h3>
+Full List: <a target="_blank" href="https://github.com/rayaan2003/Papers-Research">GitHub</a>
+<br/><br/>
+
+<ul>
+	<li>
+	<span class="title">Architectural Mixing Strategies for Hybrid SSM-Attention Networks: A Systematic Study of Efficiency and Generalisation</span><br/>
+	<b>Rayaan Sheikh</b>, supervised by Fredrik Dahlqvist<br/>
+	MSc Dissertation, Queen Mary University of London, 2026<br/>
+	<a href="https://drive.google.com/file/d/16BzlxTQ6wNkOrGOmnEBQCKcrwc_3dINB/view?usp=sharing" target="_blank">paper</a> /
+	<a href="https://github.com/rayaan2003/hybrid-ssm-attention-dissertation" target="_blank">code</a> /
+	<a href="javascript:unhide('diss26bib');">bibtex</a> /
+	<a href="javascript:unhide('diss26tldr');">tl;dr</a>
+	<div id="diss26bib" class="hidden"><div class="bibstyle">@mastersthesis{sheikh2026hybrid,
+  title={Architectural Mixing Strategies for Hybrid SSM-Attention Networks: A Systematic Study of Efficiency and Generalisation},
+  author={Sheikh, Rayaan},
+  school={Queen Mary University of London},
+  year={2026}
+}</div></div>
+	<div id="diss26tldr" class="hidden">
+We compare two ways of mixing a Transformer and a Mamba model. Stochastic routing (picking one model per input) provably collapses to whichever pure model is better. Probabilistic blending of the two output distributions is convex and reaches a genuine interior optimum that beats both baselines. We also measure a latency crossover at around 1,700 tokens, below which the Transformer is faster and above which Mamba wins.
+	</div>
+
+	<li>
+	<span class="title">The AiFi Thesis: AI Infrastructure Market Study on Compute, Models and Governance</span><br/>
+	Report, 2025<br/>
+	<a href="https://peri-labs.github.io/docs/assets/files/The_AiFi_Thesis.pdf" target="_blank">paper</a> /
+	<a href="javascript:unhide('aifi25tldr');">tl;dr</a>
+	<div id="aifi25tldr" class="hidden">
+A framework for AI infrastructure asset classes (compute, models, agents) with governance considerations, including full market sizing and a go-to-market strategy.
+	</div>
+
+	<li>
+	<span class="title">The State of Edge AI: Decentralising Intelligence</span><br/>
+	Report, 2024<br/>
+	<a href="https://peri-labs.github.io/docs/assets/files/The_State_of_Edge_AI.pdf" target="_blank">paper</a> /
+	<a href="javascript:unhide('edge24tldr');">tl;dr</a>
+	<div id="edge24tldr" class="hidden">
+Explores edge-native AI agents and decentralised infrastructure that enable real-time distributed inference beyond centralised cloud providers.
+	</div>
+</ul>
+
+<hr/>
+<div class="footer">Last Updated: November 9, 2026</div>
+</body>
+</html>
